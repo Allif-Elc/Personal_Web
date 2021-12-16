@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Personal - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+      <!-- NavBar -->
+      <nav>
+        <div class="left-side">
+          <a href="index.html">
+            <img src="assets/logo.png" alt="logo" />
+          </a>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="blog.html" class="list-active">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <a href="contact.html"> Contact Me </a>
+        </div>
+      </nav>
+  
+    <form class="" action="">
+      <div class="input-container">
+        <label for="name-input">Name</label>
+        <input type="text" id="name-input" placeholder="John Due" />
+      </div>
+
+      <div class="input-container">
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" placeholder="johndue@test.com" />
+      </div>
+
+      <div class="input-container">
+        <label for="phone-input">Phone number</label>
+        <input
+          type="text"
+          id="phone-input"
+          placeholder="+62 810-0909-0989-1111"
+        />
+      </div>
+
+      <div class="input-container">
+        <label for="subject-input">Subject</label>
+        <select name="stack" id="subject-input">
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+          <option value="fullstack">Fullstack</option>
+        </select>
+      </div>
+
+      <div class="input-container">
+        <label for="skill">Your skills</label>
+        <div class="container-skill">
+          <input class="skill-input" type="checkbox" id="skill-input0" />
+          <label class="skill-label" for="skill-input0" value="C/C++">C/C++</label>
+        </div>
+
+        <div class="container-skill">
+          <input class="skill-input" type="checkbox" id="skill-input1" />
+          <label class="skill-label" for="skill-input1">Go lang</label>
+        </div>
+
+        <div class="container-skill">
+          <input class="skill-input" type="checkbox" id="skill-input2" />
+          <label class="skill-label" for="skill-input2">Javascript</label>
+        </div>
+
+        <div class="container-skill">
+          <input class="skill-input" type="checkbox" id="skill-input3" />
+          <label class="skill-label" for="skill-input3">Python</label>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="your-massage">Your massage</label>
+        <textarea name="massage" id="your-massage" cols="30" rows="10">
+        </textarea>
+      </div>
+
+      <button class="submit-contact-form" type="button" onclick="submitData()">Submit</button>
+    </form>
+     <!--footer --> 
+     <footer>
+      <h6>&copyCopyright 2021 by Allif Tech</h6>
+    </footer>
+  </body>
+</html>
