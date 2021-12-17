@@ -282,6 +282,7 @@ select {
 .section .info-section p{
   color: rgb(182, 178, 178);
   text-align: justify;
+  margin: 8px 0px;
 }
 
 .skill-info{
@@ -322,8 +323,13 @@ select {
   border-radius: 10px;
 }
 
+.card-profile .name-profile{
+  margin: 8px;
+}
+
 .card-profile .description-profile{
   color: gray;
+  margin: 8px;
 }
 
 table{
@@ -332,6 +338,8 @@ table{
   border-collapse: collapse;
   width: 100%;
 }
+
+
 
 /* end of card-profile*/
 /* --------------------------------------------------------------------------------------*/
